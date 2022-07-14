@@ -18,3 +18,4 @@ Things you may want to cover:
 5-Cargar en mysql la db que se encuentra dentro de la carpeta del proyecto o ejecutar las migraciones con el comando -  rails db:setup  - seguido por -  rails db:migrate  -
 6-Ejecutar el proyecto: Situarse en raiz del proyecto con una terminal y ejecutar rails server
 7-En el exploradro web ingresar con a url: http://127.0.0.1:3000/home
+8- El archivo a cargar se encuentra en la carpeta del proyecto cone l nombre Code challenge rails.xlsx
