@@ -22,9 +22,10 @@
     <h1>Code Challenge RoR</h1>
     <p class="lead">Cargar Archivo a Exportar.</p>
     <form method="post" action="/store" enctype="multipart/form-data">
+    	<%= token_tag %> 
 	    <div class="row">
 	    	<div class="col-md-6 col-sm-12 text-center">
-	    		<input type="file" class="form-control-file" name="file">
+	    		<input type="file" class="form-control-file" required name="file">
 	    	</div>
 	    	<div class="col-md-2 col-sm-12 text-sm-center">
 	    		<button type="submit" class="btn btn-primary">Enviar</button>
