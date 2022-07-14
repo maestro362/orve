@@ -16,6 +16,12 @@
     </form>
   </div>
 </nav>
+<% if defined?(@cont) %>
+  <div class="alert alert-success" role="alert">
+    Archivo cargado con <%= @cont %> registros.
+  </div>
+<% end %>
+
 
 <main role="main" class="container">
   <div class="jumbotron">
